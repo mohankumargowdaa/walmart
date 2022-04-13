@@ -18,6 +18,7 @@ import org.sikuli.script.Screen;
 
 public class WebDriverUtility {
 	
+	//added 1 line
 	public static void getScreenShot(WebDriver driver,String pageName) throws IOException {
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
@@ -29,7 +30,6 @@ public class WebDriverUtility {
 		String dateData = date.toString().replaceAll(" ","_").replaceAll(":", "_");
 		return dateData;
 	}
-
 public static void handleCaptha(WebDriver driver) {
 	for(int i=0;;i++) {
 		try {
