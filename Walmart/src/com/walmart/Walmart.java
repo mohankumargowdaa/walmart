@@ -62,18 +62,7 @@ public class Walmart {
 		//driver.findElement(By.xpath("//a[@aria-label='electronics in All Departments']")).click();
 		//WebDriverUtility.handleCaptha(driver);
 		driver.findElement(By.xpath("//i[@class='ld ld-Search absolute']")).click();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		driver.close();
 		}
 	}
 
